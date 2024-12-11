@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .email-container { padding: 20px; font-family: Arial, sans-serif; }
+        .task-details { background: #fff3f3; padding: 15px; border-radius: 5px; }
+        .button { background: #ff4444; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        .warning { color: #ff4444; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <h2>Hello {user_name},</h2>
+        <p class="warning">A task has passed its due date:</p>
+        <div class="task-details">
+            <h3>{task_title}</h3>
+            <p>{task_description}</p>
+            <p>Due Date: {due_date}</p>
+        </div>
+        <p>
+            <a href="https://yourdomain.com/tasks" class="button">View Task</a>
+        </p>
+    </div>
+</body>
+</html>

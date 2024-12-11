@@ -1,0 +1,22 @@
+/* animation.css */
+body {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+body.fade-in {
+    opacity: 1;
+}
+
+.main-content {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.main-content.fade-out {
+    opacity: 0;
+}
+
+.main-content.fade-in {
+    opacity: 1;
+}
